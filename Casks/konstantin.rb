@@ -1,6 +1,6 @@
 cask "konstantin" do
-  version "0.2.0-rc2"
-  sha256 "b5a3a42c76f589703c3775fd51e497daf6faa615b36533de232fb72f1fe18b0c"
+  version "0.2.0-rc3"
+  sha256 "b3a7eb7358a36b85d1761d7fbbd238832ccc281a9a97fae86b90941960483d6a"
 
   on_arm do
     url "https://github.com/gitopolis/konstantin/releases/download/v#{version}/Konstantin-#{version}-arm64.zip"
