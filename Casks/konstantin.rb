@@ -1,9 +1,9 @@
 cask "konstantin" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.6.2"
-  sha256 arm:   "3372f6cd0fe6ee2e95d2f889b22263cf9ab8647eb3c4da8d29758d1526a63eef",
-         intel: "e31158f5b8c7ead14a4c92f1a2a57963fbce6a975f6db147dc73f0b870e664b9"
+  version "0.6.3"
+  sha256 arm:   "9820c14ce20fa9cc37b5968307f475e9a264da0b627b4a628afc272295a6e3ca",
+         intel: "66cf60c1d543126a3ce05e8985cda85fd1ae26b35bddad647b8de3668746b94a"
 
   url "https://github.com/gitopolis/konstantin/releases/download/v#{version}/Konstantin-#{version}-#{arch}.zip"
   name "Konstantin"
